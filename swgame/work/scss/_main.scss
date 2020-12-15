@@ -1,0 +1,412 @@
+//------------Generel------------
+* {
+    margin: $value0;
+    padding: $value0;
+}
+
+.row {
+    margin-right: $value0;
+    margin-left: $value0;
+}
+
+.fyldeDiv2 {
+   height: 220px;
+}
+
+
+.fyldeDiv {
+    height: 535px;
+}
+
+.container-fluid {
+    width: $value100;
+    padding: $value0;
+    padding-left: $value0!important;
+    padding-right: $value0!important;
+}
+
+#footer {
+    color: $aliceBlue;
+    background-color: $colorBlack;
+    text-align: $alignCenter;
+    height: auto;
+    padding: 20px;
+    p {
+        padding: $tenPixels;
+        margin-bottom: $value0;
+    }
+    h4 {
+        padding: 15px;
+        padding-bottom: $value0;
+        margin-bottom: $value0;
+    }
+   
+}
+
+.customNavbar {
+    background-color: $colorBlack!important;
+    color: $aliceBlue;
+    font-family: helvetica, arial, sans-serif;
+}
+
+
+
+.errorMessage {
+    color: $colorRed;
+}
+//-------------Forside-------------
+#warningMessage {
+    color: $colorRed;
+     text-align: $alignCenter;
+}
+
+#welcomeMessage {
+    margin-top: $onehundredPixels;
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    font-family: $bungeeFont;
+}
+
+.wCol, .wRow {
+    padding-right: $value0!important;
+    padding-left: $value0!important;
+    margin-right: $value0!important;
+    margin-left: $value0!important;
+}
+
+#loginMessage {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+}
+
+.logButton {
+    align-items: $alignCenter;
+    display: $displayBlock;
+    margin: $zeroAuto;
+    padding: $buttonPadding; 
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    border: $valueNone;
+    margin-top: $fiftyPixels;
+    text-decoration: $valueNone;
+    background-color: $aliceBlue;
+    color: $colorBlack;
+    width: $fourtyPercent;
+    text-align: $alignCenter;
+   
+     &:hover {
+            background-color:$greyColor;
+            text-decoration: $valueNone;
+            color: $colorBlack;
+        }
+        
+} 
+
+.signUpBtn {
+    align-items: $alignCenter;
+    display: $displayBlock;
+    margin: $zeroAuto;
+    padding: $buttonPadding; 
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    border: $valueNone;
+    margin-top: $fiftyPixels;
+    text-decoration: $valueNone;
+    background-color: $aliceBlue;
+    color: $colorBlack;
+    width: $fourtyPercent;
+    padding: $tenPixels;
+    text-align: $alignCenter;
+     &:hover {
+            background-color:$greyColor;
+            text-decoration: $valueNone;
+            color: $colorBlack;
+        }
+}
+
+
+#sign-in-div {
+    align-items: $alignCenter;
+    text-align: $alignCenter;
+}
+
+
+//-----------Sign-in side-----------
+.signInHead {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    margin-top: 155px;
+}
+
+form {
+    display: $displayBlock;
+    margin: $zeroAuto;
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    .signInButton {
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    border: $valueNone;
+    padding: $buttonPadding;
+     &:hover {
+           background-color: $greyColor;
+            text-decoration:$valueNone;
+     }
+    }
+}
+
+.passwordChange {
+    margin-top: $marginFive;
+    margin-left: 24px;
+}
+
+.usernameChange {
+    margin-top: $marginFive;
+    margin-left: 29px;
+}
+
+.nameChange {
+    margin-top: $marginFive;
+}
+
+.userRegi {
+    color: $aliceBlue;
+    text-align: $alignCenter;
+}
+.backToFront {
+    align-items: $alignCenter;
+    display: $displayBlock;
+    margin: $zeroAuto;
+    padding: $buttonPadding; 
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    border: $valueNone;
+    margin-top: $fiftyPixels;
+     text-decoration: $valueNone;
+      color: $colorBlack;
+    background-color: $aliceBlue;
+    width: 15%;
+    text-align: $alignCenter;
+     &:hover {
+            background-color: $greyColor;
+            text-decoration:$valueNone;
+            color: $colorBlack;
+        }
+        
+    } 
+
+.fyldeDiv3 {
+    height: 235px;
+}
+
+// -----------------Login side--------------------
+.loginHead {
+   text-align: $alignCenter;
+    
+}
+.usernameIn {
+    margin-left: 5px;
+}
+
+.fyldeDiv4 {
+    height: 304px;
+}
+
+#errorMessage {
+    color: $colorRed;
+}
+
+//----------------Informations side----------------
+.gameDescription {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+}
+
+.karakterBeskrivelse {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    margin-top: 5%;
+    img {
+         width: 50%;
+         height: 60%;
+         margin-bottom: $fiftyPixels;
+    } 
+    p {
+        font-size: 100%;
+    }
+}
+
+.karakterBeskrivelse1 {
+    text-align: $alignCenter;
+    color: $colorBlack;
+    margin-top: 5%;
+    img {
+         width: 50%;
+         height: 60%;
+         margin-bottom: $fiftyPixels;
+    } 
+    p {
+        font-size: 100%;
+    }
+}
+
+.karakterBeskrivelse2 {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    margin-top: 5%;
+    img {
+         width: 50%;
+         height: 60%;
+         margin-bottom: $fiftyPixels;
+    } 
+    p {
+        font-size: 100%;
+    }
+}
+
+
+.rowColorBlack {
+   background: $colorBlack; 
+   color: $aliceBlue;
+   h4 {
+       text-align: $alignCenter;
+   }
+}
+
+.rowColorLight {
+    background: $aliceBlue;
+    color: $colorBlack;
+    h4 {
+        text-align: $alignCenter;
+    }
+}
+
+
+.backToFront1 {
+    align-items: $alignCenter;
+    display: $displayBlock;
+    margin: $zeroAuto;
+    padding: $buttonPadding; 
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    border: $valueNone;
+    margin-top: $fiftyPixels;
+    text-decoration: $valueNone;
+    margin-bottom: $thirtyPixels;
+    color: $colorBlack;
+    background-color: $aliceBlue;
+    width: 10%;
+    text-align: $alignCenter;
+     &:hover {
+            background-color: $greyColor;
+            text-decoration:$valueNone;
+            color: $colorBlack;
+        }        
+    } 
+
+.vueHover {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    font-family: $bungeeFont;
+    #boss {
+        font-family: $bungeeFont;
+        text-align: $alignCenter;
+        img {
+            width: 30%;
+            height: $fourtyPercent;
+        }
+    }
+}
+
+.gameTileRow {
+    margin-right: $value0!important;
+margin-left: $value0!important;
+}
+
+.gameTiles {
+    text-align: $alignCenter;
+    color: $aliceBlue;
+    margin-top: 6%;
+    font-family: $bungeeFont;
+}
+
+
+.startGameBtn {
+    display: $displayBlock;
+    margin: $zeroAuto;
+    font-family: $condensedFont;
+    font-weight: $valueBold;
+    letter-spacing: $twoPixels;
+    text-align: $alignCenter;
+    padding: 2%;
+    text-decoration: $valueNone;
+    margin-bottom: $fiftyPixels;
+    margin-top: $fiftyPixels;
+    color: $colorBlack;
+    background-color: $aliceBlue;
+     &:hover {
+            background-color: $greyColor;
+            text-decoration:$valueNone;
+            color: $colorBlack;
+        }        
+    } 
+
+//--------------------Game-side--------------------
+body {
+    background-image: url(images/deathstar.jpg);
+}
+
+.gameTitle {
+    margin-top: $fiftyPixels;
+    text-align: $alignCenter;
+}
+
+#canvas {
+    display: $displayBlock;
+    margin: $zeroAuto;
+    border: 1px solid $colorBlack;
+    }
+
+
+h1 {
+    font-family: $bungeeFont;
+    color: $aliceBlue;
+}
+
+
+#coinAmount, #moreCoins {
+    text-align: $alignCenter;
+    font-family: $condensedFont; 
+   color: white;
+}
+
+#restartButton {
+    display: $displayBlock;
+    margin: $zeroAuto;
+    padding: $buttonPadding;
+    font-family: $condensedFont;
+    font-size: large;
+    font-weight: $valueBold;
+    background-color: $aliceBlue;
+    border: $valueNone;
+    letter-spacing: $twoPixels;
+    margin-bottom: $thirtyPixels;
+    width: 7.5%;
+    color: $colorBlack;
+    &:hover {
+        background: $greyColor;
+    }
+}
+
+.timebox {
+    text-align: $alignCenter;
+    p {
+       color: $aliceBlue;
+    }
+}
+

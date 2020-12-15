@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans+Condensed:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
+.fyldeDiv2 {
+  height: 220px; }
+
+.fyldeDiv {
+  height: 535px; }
+
+.container-fluid {
+  width: 100%;
+  padding: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+#footer {
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  height: auto;
+  padding: 20px; }
+  #footer p {
+    padding: 10px;
+    margin-bottom: 0; }
+  #footer h4 {
+    padding: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.customNavbar {
+  background-color: black !important;
+  color: aliceblue;
+  font-family: helvetica, arial, sans-serif; }
+
+.errorMessage {
+  color: red; }
+
+#warningMessage {
+  color: red;
+  text-align: center; }
+
+#welcomeMessage {
+  margin-top: 100px;
+  text-align: center;
+  color: aliceblue;
+  font-family: "Bungee", Arial, Helvetica, sans-serif; }
+
+.wCol, .wRow {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+#loginMessage {
+  text-align: center;
+  color: aliceblue; }
+
+.logButton {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 43px 7px 43px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 50px;
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+  width: 40%;
+  text-align: center; }
+  .logButton:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black; }
+
+.signUpBtn {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 43px 7px 43px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 50px;
+  text-decoration: none;
+  background-color: aliceblue;
+  color: black;
+  width: 40%;
+  padding: 10px;
+  text-align: center; }
+  .signUpBtn:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black; }
+
+#sign-in-div {
+  align-items: center;
+  text-align: center; }
+
+.signInHead {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 155px; }
+
+form {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: aliceblue; }
+  form .signInButton {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    padding: 7px 43px 7px 43px; }
+    form .signInButton:hover {
+      background-color: grey;
+      text-decoration: none; }
+
+.passwordChange {
+  margin-top: 5px;
+  margin-left: 24px; }
+
+.usernameChange {
+  margin-top: 5px;
+  margin-left: 29px; }
+
+.nameChange {
+  margin-top: 5px; }
+
+.userRegi {
+  color: aliceblue;
+  text-align: center; }
+
+.backToFront {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 43px 7px 43px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+  background-color: aliceblue;
+  width: 15%;
+  text-align: center; }
+  .backToFront:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black; }
+
+.fyldeDiv3 {
+  height: 235px; }
+
+.loginHead {
+  text-align: center; }
+
+.usernameIn {
+  margin-left: 5px; }
+
+.fyldeDiv4 {
+  height: 304px; }
+
+#errorMessage {
+  color: red; }
+
+.gameDescription {
+  text-align: center;
+  color: aliceblue; }
+
+.karakterBeskrivelse {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5%; }
+  .karakterBeskrivelse img {
+    width: 50%;
+    height: 60%;
+    margin-bottom: 50px; }
+  .karakterBeskrivelse p {
+    font-size: 100%; }
+
+.karakterBeskrivelse1 {
+  text-align: center;
+  color: black;
+  margin-top: 5%; }
+  .karakterBeskrivelse1 img {
+    width: 50%;
+    height: 60%;
+    margin-bottom: 50px; }
+  .karakterBeskrivelse1 p {
+    font-size: 100%; }
+
+.karakterBeskrivelse2 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 5%; }
+  .karakterBeskrivelse2 img {
+    width: 50%;
+    height: 60%;
+    margin-bottom: 50px; }
+  .karakterBeskrivelse2 p {
+    font-size: 100%; }
+
+.rowColorBlack {
+  background: black;
+  color: aliceblue; }
+  .rowColorBlack h4 {
+    text-align: center; }
+
+.rowColorLight {
+  background: aliceblue;
+  color: black; }
+  .rowColorLight h4 {
+    text-align: center; }
+
+.backToFront1 {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding: 7px 43px 7px 43px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  margin-top: 50px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  background-color: aliceblue;
+  width: 10%;
+  text-align: center; }
+  .backToFront1:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black; }
+
+.vueHover {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Bungee", Arial, Helvetica, sans-serif; }
+  .vueHover #boss {
+    font-family: "Bungee", Arial, Helvetica, sans-serif;
+    text-align: center; }
+    .vueHover #boss img {
+      width: 30%;
+      height: 40%; }
+
+.gameTileRow {
+  margin-right: 0 !important;
+  margin-left: 0 !important; }
+
+.gameTiles {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 6%;
+  font-family: "Bungee", Arial, Helvetica, sans-serif; }
+
+.startGameBtn {
+  display: block;
+  margin: 0 auto;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 2%;
+  text-decoration: none;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: black;
+  background-color: aliceblue; }
+  .startGameBtn:hover {
+    background-color: grey;
+    text-decoration: none;
+    color: black; }
+
+body {
+  background-image: url(images/deathstar.jpg); }
+
+.gameTitle {
+  margin-top: 50px;
+  text-align: center; }
+
+#canvas {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid black; }
+
+h1 {
+  font-family: "Bungee", Arial, Helvetica, sans-serif;
+  color: aliceblue; }
+
+#coinAmount, #moreCoins {
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white; }
+
+#restartButton {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 43px 7px 43px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  background-color: aliceblue;
+  border: none;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  width: 7.5%;
+  color: black; }
+  #restartButton:hover {
+    background: grey; }
+
+.timebox {
+  text-align: center; }
+  .timebox p {
+    color: aliceblue; }
